@@ -1,0 +1,13 @@
+section#sec-apresentation-1 {
+    display: grid;
+    grid-template: auto / 1fr 1fr;
+    width: 100%;
+}
+
+section#sec-apresentation-1 div#div-content {
+    align-self: center;
+}
+
+section#sec-apresentation-1 div#div-content h1, section#sec-apresentation-1 div#div-content h2 {
+    text-align: left;
+}

@@ -1,0 +1,40 @@
+header {
+    padding: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+section#sec-apresentation-3 {
+    flex-flow: column nowrap;
+    width: 100%;
+}
+
+section#sec-apresentation-3 div#div-apresentation-3 {
+    display: grid;
+    grid-template: auto / 1fr 1fr 1fr;
+    gap: 15px;
+}
+
+section#sec-apresentation-2 {
+    width: 100%;
+}
+
+section#sec-apresentation-2 div#div-apresentation-2 {
+    display: grid;
+    grid-template: auto / 1fr 1fr;
+    gap: 10px;
+}
+
+section#sec-feedback {
+    width: 90%;
+    margin-top: 30px;
+}
+
+section#sec-feedback div#div-feedback {
+    display: grid;
+    grid-template: auto / 1fr 1fr 1fr;
+    height: auto;
+    width: 100%;
+}
